@@ -5,16 +5,13 @@
   "main": "dist/chota.min.css",
   "scripts": {
     "start": "browser-sync start --server --directory --files '**/*.css' '**/*.html'",
+    "buildsass": "sass scss/chota.scss:dist/chota.css",
     "build": "rm -r dist/ && yarn postcss &&  NODE_ENV=production yarn postcss -x .min.css",
     "postcss": "postcss ./src/chota.css -d dist/",
     "watch": "NODE_ENV=development yarn postcss -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "css",
-    "minimal",
-    "web"
-  ],
+  "keywords": ["css", "minimal", "web"],
   "author": "Jenil Gogari",
   "license": "MIT",
   "homepage": "https://jenil.github.io/chota",
@@ -32,9 +29,5 @@
     "postcss-csso": "^3.0.0",
     "postcss-import": "^9.1.0"
   },
-  "files": [
-    "src/",
-    "dist/",
-    "README.md"
-  ]
+  "files": ["src/", "dist/", "README.md"]
 }
