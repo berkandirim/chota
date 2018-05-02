@@ -18,18 +18,9 @@ A really small CSS framework
 
 ### Get started
 
-CDN:
-```html
-<link rel="stylesheet" href="https://unpkg.com/chota">
-```
+While you can compile scss with `buildsass` script, what you really should do is to import `scss/chota` into your main scss file and compile it with your custom css.
 
-npm or yarn:
-```bash
-npm install chota
-```
-
-#### SASS support
-Chota is designed keeping in mind *ease-of-use* and *minimalism*, hence it doesn't use any preprocessor or complex build process. If you would still like to extend it further using SASS, head to [palmiak's fork](https://github.com/palmiak/chota).
+NPM package coming soon!
 
 <br>
 
