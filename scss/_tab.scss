@@ -1,29 +1,24 @@
 .tabs {
     display: flex;
-}
-
-.tabs a {
-    text-decoration: none;
-}
-
-.tabs > a {
-    padding: 1rem 2rem;
-    flex: 0 1 auto;
-    color: #555;
-    border-bottom: 2px solid $lightGrey-color;
-    text-align: center;
-}
-
-.tabs > a.active,
-.tabs > a:hover {
-    opacity: 1;
-    border-bottom: 2px solid #555;
-}
-
-.tabs > a.active {
-    border-color: $primary-color;
-}
-
-.tabs.is-full a {
-    flex: 1;
+    > a {
+        padding: 1rem 2rem;
+        flex: 0 1 auto;
+        color: #555;
+        border-bottom: 2px solid $lightGrey-color;
+        text-align: center;
+        &.active,
+        &:hover {
+            opacity: 1;
+            border-bottom: 2px solid #555;
+        }
+        &.active {
+            border-color: $primary-color;
+        }
+    }
+    a {
+        text-decoration: none;
+    }
+    &.is-full a {
+        flex: 1;
+    }
 }
