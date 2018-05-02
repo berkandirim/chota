@@ -1,6 +1,6 @@
 {
   "name": "chota-scss",
-  "version": "0.2.0",
+  "version": "0.5.0",
   "description": "SCSS port for a really small CSS framework",
   "main": "scss/chota.scss",
   "scripts": {
