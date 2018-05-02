@@ -18,9 +18,11 @@ A really small CSS framework
 
 ### Get started
 
-While you can compile scss with `buildsass` script, what you really should do is to import `scss/chota` into your main scss file and compile it with your custom css.
+```
+npm i chota-scss
+```
 
-NPM package coming soon!
+While you can compile scss with `buildsass` script, what you really should do is to import `scss/chota` into your main scss file and compile it with your custom css.
 
 <br>
 
