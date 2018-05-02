@@ -1,6 +1,6 @@
 {
   "name": "chota-scss",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "SCSS port for a really small CSS framework",
   "main": "scss/chota.scss",
   "scripts": {
@@ -11,9 +11,17 @@
     "watch": "NODE_ENV=development yarn postcss -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["css", "scss", "sass", "minimal", "web"],
+  "keywords": [
+    "css",
+    "scss",
+    "sass",
+    "minimal",
+    "web"
+  ],
   "author": "Jenil Gogari",
-  "contributors": ["Berkan Dirim <berkandirim@gmail.com> (http://dirim.co/)"],
+  "contributors": [
+    "Berkan Dirim <berkandirim@gmail.com> (http://dirim.co/)"
+  ],
   "license": "MIT",
   "homepage": "https://jenil.github.io/chota",
   "repository": {
@@ -30,5 +38,10 @@
     "postcss-csso": "^3.0.0",
     "postcss-import": "^9.1.0"
   },
-  "files": ["scss/", "src/", "dist/", "README.md"]
+  "files": [
+    "scss/",
+    "src/",
+    "dist/",
+    "README.md"
+  ]
 }
